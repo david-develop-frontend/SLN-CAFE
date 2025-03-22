@@ -37,7 +37,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Our Address",
-      details: "Shivappa Building,Bidarahalli,Bangalore 560049"
+      details: "A108 Adam Street, New York, NY 535022"
     },
     {
       icon: (
@@ -46,7 +46,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Call Us",
-      details: "+91 88922 37416"
+      details: "+1 5589 55488 55\n+1 6678 254445 41"
     },
     {
       icon: (
@@ -55,7 +55,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Email Us",
-      details: "info@theslncafe.com"
+      details: "info@example.com\ncontact@example.com"
     },
     {
       icon: (
@@ -64,7 +64,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Open Hours",
-      details: "Monday-Sunday\n07:30:00 AM - 10:00 PM"
+      details: "Monday-Saturday\n11:00 AM - 11:00 PM"
     }
   ];
   
@@ -98,16 +98,17 @@ const Contact = () => {
             </div>
             
             {/* Map */}
-            <div className="rounded-lg overflow-hidden shadow-md w-full aspect-[16/9]">
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.1224305906469!2d77.71585978310009!3d13.061117176091246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae10767be6a05d%3A0x760bf044eda305e5!2sCheemasandra%2C%20Bidarahalli%2C%20Bengaluru%2C%20Karnataka%20560049!5e1!3m2!1sen!2sin!4v1742543045049!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
-    
-  
-  
-    title="The SLN Cafe Location"
-  ></iframe>
-</div>
-
+            <div className="rounded-lg overflow-hidden shadow-md h-80">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.593598362539!2d-74.00567648492344!3d40.71279794516625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzQ2LjAiTiA3NMKwMDAnMTcuMCJX!5e0!3m2!1sen!2sus!4v1629184902132!5m2!1sen!2sus" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy"
+                title="Restaurant Location"
+              ></iframe>
+            </div>
           </Reveal>
           
           {/* Right Column - Contact Form */}
