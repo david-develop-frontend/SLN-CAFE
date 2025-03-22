@@ -12,7 +12,7 @@ const Navbar = () => {
       setScrolled(window.scrollY > 50);
       
       // Check which section is currently in view
-      const sections = ['home', 'about', 'menu', 'testimonials', 'chefs', 'gallery', 'contact','abcd'];
+      const sections = ['home', 'about', 'menu', 'testimonials', 'chefs', 'gallery', 'contact',];
       
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -38,7 +38,7 @@ const Navbar = () => {
     { id: 'chefs', label: 'Chefs' },
     { id: 'gallery', label: 'Gallery' },
     { id: 'contact', label: 'Contact' },
-    { id: 'abcd', label: 'abcd' },
+    
   ];
   
   const scrollToSection = (id) => {
@@ -62,7 +62,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="text-3xl md:text-4xl font-amatic font-bold text-restaurant-dark">
-          SLN Cafe<span className="text-restaurant-red">.</span>
+          THE SLN Cafe<span className="text-restaurant-red">.</span>
         </a>
         
         {/* Desktop Navigation */}

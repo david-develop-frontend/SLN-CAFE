@@ -33,16 +33,16 @@ const Footer = () => {
             {/* Company Info */}
             <div>
               <h3 className="text-2xl font-amatic font-bold mb-4">
-                Yummy<span className="text-restaurant-red">.</span>
+                The SLN CAFE<span className="text-restaurant-red">.</span>
               </h3>
               <p className="text-gray-300 mb-4">
-                A108 Adam Street <br />
-                New York, NY 535022 <br />
-                United States
+               Shivappa Building Near Lakshmi Narasimha Swamy Temple <br />
+               Bidarahalli,Bengaluru-560049 <br />
+               Karnataka
               </p>
               <p className="text-gray-300">
-                <strong>Phone:</strong> +1 5589 55488 55 <br />
-                <strong>Email:</strong> info@example.com
+                <strong>Phone:</strong> +91 88922 37416 <br />
+                <strong>Email:</strong> info@theslncafe.com
               </p>
             </div>
             
@@ -69,7 +69,7 @@ const Footer = () => {
               </ul>
             </div>
             
-            {/* Newsletter */}
+             {/* Newsletter */}
             <div>
               <h4 className="text-lg font-semibold mb-4 relative inline-block">
                 Our Newsletter
@@ -85,9 +85,9 @@ const Footer = () => {
                   className="px-4 py-2 rounded-l-md w-full focus:outline-none bg-white/10 text-white"
                 />
                 <button type="submit" className="bg-restaurant-red text-white px-4 py-2 rounded-r-md hover:bg-opacity-90 transition-300">
-                  Subscribe
+                  Subscribe 
                 </button>
-              </form>
+              </form> 
             </div>
           </div>
           
@@ -96,7 +96,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-center md:text-left mb-4 md:mb-0">
                 <p className="text-gray-300">
-                  &copy; {new Date().getFullYear()} <strong>Yummy</strong>. All Rights Reserved
+                  &copy; {new Date().getFullYear()} <strong>The SLN CAFE</strong>. All Rights Reserved
                 </p>
                 <p className="text-sm text-gray-400 mt-1">
                   Designed with love for good food and good times

@@ -41,7 +41,7 @@ const About = () => {
             <div className="relative rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop" 
-                alt="About Yummy Restaurant" 
+                alt="About The SLN Cafe" 
                 className="w-full h-full object-cover rounded-lg shadow-lg"
                 style={{ height: '600px' }}
               />
@@ -68,7 +68,7 @@ const About = () => {
               
               <Reveal delay={300}>
                 <p className="text-restaurant-text mb-6 leading-relaxed">
-                  Welcome to Yummy, where passion meets cuisine. Since 2008, we've been serving 
+                  Welcome to SLN Cafe, where passion meets cuisine.we've been serving 
                   exceptional dishes crafted with love and the finest ingredients. Our restaurant 
                   is a place where culinary art and warm hospitality create memorable dining experiences.
                 </p>

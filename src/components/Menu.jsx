@@ -16,21 +16,21 @@ const Menu = () => {
     starters: [
       {
         id: 1,
-        name: 'Crispy Spring Rolls',
-        description: 'Fresh vegetable spring rolls with sweet chili dipping sauce',
-        price: 12.95,
-        image: 'https://images.unsplash.com/photo-1515669097368-22e68427d265?q=80&w=1170&auto=format&fit=crop'
+        name: 'Coffee',
+        description: 'Fresh vegeDelicious and aromatic vegetable bath, packed with fresh veggies and flavorful spices, perfect for a hearty meal',
+        price: 30,
+        image: 'https://palatesdesire.com/wp-content/uploads/2022/07/vegetable-bath-recipe@palates-desire.jpg'
       },
       {
         id: 2,
-        name: 'Bruschetta',
+        name: 'Tea',
         description: 'Toasted bread topped with tomatoes, fresh basil, and garlic',
         price: 10.95,
         image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?q=80&w=1074&auto=format&fit=crop'
       },
       {
         id: 3,
-        name: 'Calamari Fritti',
+        name: 'Lemon Tea/Grean Tea',
         description: 'Lightly battered squid served with lemon wedges and aioli',
         price: 14.95,
         image: 'https://images.unsplash.com/photo-1576577445504-6af96477db52?q=80&w=1064&auto=format&fit=crop'
@@ -39,21 +39,21 @@ const Menu = () => {
     breakfast: [
       {
         id: 4,
-        name: 'Avocado Toast',
-        description: 'Smashed avocado on artisan bread with poached eggs and microgreens',
-        price: 14.95,
-        image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1480&auto=format&fit=crop'
+        name: 'Vegetable Bath',
+        description: 'Fresh vegeDelicious and aromatic vegetable bath, packed with fresh veggies and flavorful spices, perfect for a hearty meal',
+        price: 30,
+        image: 'https://palatesdesire.com/wp-content/uploads/2022/07/vegetable-bath-recipe@palates-desire.jpg'
       },
       {
         id: 5,
-        name: 'Belgian Waffles',
-        description: 'Fluffy waffles topped with fresh berries, maple syrup, and whipped cream',
-        price: 12.95,
-        image: 'https://images.unsplash.com/photo-1513442542250-854d436a73f2?q=80&w=1074&auto=format&fit=crop'
+        name: 'Idly & Vada',
+        description: 'Soft, fluffy idlis and crispy golden vadas served with flavorful chutney and sambar for a perfect South Indian delight',
+        price: 50,
+        image: 'https://thumbs.dreamstime.com/b/idli-vada-sambar-three-traditional-popular-south-indian-vegetarian-breakfast-lunch-items-62957608.jpg'
       },
       {
         id: 6,
-        name: 'Eggs Benedict',
+        name: 'Puri & Potato Squash',
         description: 'Poached eggs and Canadian bacon on English muffin with hollandaise sauce',
         price: 16.95,
         image: 'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?q=80&w=1074&auto=format&fit=crop'

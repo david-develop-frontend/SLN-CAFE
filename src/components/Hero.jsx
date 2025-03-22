@@ -51,7 +51,7 @@ const Hero = () => {
           <RevealGroup>
             <Reveal animation="fade-in" delay={300}>
               <h2 className="font-amatic text-5xl md:text-7xl text-white mb-4">
-                Enjoy Your Healthy
+                Enjoy Your Budget Friendly
                 <br /> 
                 Delicious Food
               </h2>
