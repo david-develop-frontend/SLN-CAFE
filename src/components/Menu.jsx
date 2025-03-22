@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Reveal, RevealGroup } from '@/components/ui/reveal';
 
 const Menu = () => {
-  const [activeCategory, setActiveCategory] = useState('starters');
+  const [activeCategory, setActiveCategory] = useState('breakfast');
   
   const categories = [
-    { id: 'starters', name: 'Starters' },
+    // { id: 'starters', name: 'Starters' },
     { id: 'breakfast', name: 'Breakfast' },
     { id: 'lunch', name: 'Lunch' },
     { id: 'dinner', name: 'Dinner' }
@@ -113,9 +113,9 @@ const Menu = () => {
         <div className="text-center mb-16">
           <Reveal>
             <span className="section-subtitle">Our Menu</span>
-            <h2 className="section-title text-3xl md:text-4xl">
+            {/* <h2 className="section-title text-3xl md:text-4xl">
               Check Our <span className="text-restaurant-red">Yummy Menu</span>
-            </h2>
+            </h2> */}
           </Reveal>
         </div>
         

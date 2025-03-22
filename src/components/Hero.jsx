@@ -40,7 +40,7 @@ const Hero = () => {
         <div
           className="hero-image absolute inset-0 bg-cover bg-center w-full h-full transition-transform duration-[3000ms] ease-out scale-105"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop')"
+            backgroundImage: "url('https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmiwE1hZgP3v5iXko7YrJGqz7T1jP28JNUq8DT8F6wKVH7uzxNtSSBsPWTogVe?format=match&mode=fit&width=640')"
           }}
         />
       </div>
@@ -69,9 +69,9 @@ const Hero = () => {
                 <a href="#menu" className="bg-restaurant-red text-white px-8 py-3 rounded-full font-medium hover:bg-opacity-90 transition-300 text-center">
                   Our Menu
                 </a>
-                <a href="#book-table" className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-300 text-center">
+                {/* <a href="#book-table" className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-300 text-center">
                   Book a Table
-                </a>
+                </a> */}
               </div>
             </Reveal>
           </RevealGroup>

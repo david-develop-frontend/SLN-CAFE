@@ -59,9 +59,9 @@ const Gallery = () => {
         <div className="text-center mb-16">
           <Reveal>
             <span className="section-subtitle">Gallery</span>
-            <h2 className="section-title text-3xl md:text-4xl">
+            {/* <h2 className="section-title text-3xl md:text-4xl">
               Check Our <span className="text-restaurant-red">Food Gallery</span>
-            </h2>
+            </h2> */}
           </Reveal>
         </div>
         

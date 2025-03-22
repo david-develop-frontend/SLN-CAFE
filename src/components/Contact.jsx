@@ -116,10 +116,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Reveal>
-            <span className="section-subtitle">Contact</span>
-            <h2 className="section-title text-3xl md:text-4xl">
+            <span className="section-subtitle">Contact Us</span>
+            {/* <h2 className="section-title text-3xl md:text-4xl">
               Need Help? <span className="text-restaurant-red">Contact Us</span>
-            </h2>
+            </h2> */}
           </Reveal>
         </div>
 

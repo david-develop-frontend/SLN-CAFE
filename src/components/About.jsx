@@ -47,12 +47,26 @@ const About = () => {
               />
               
               {/* Experience Badge */}
-              <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-full shadow-lg">
+              {/* <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-full shadow-lg">
                 <div className="w-32 h-32 rounded-full bg-restaurant-red flex flex-col items-center justify-center text-center p-2 transition-300 hover:scale-105">
                   <span className="text-4xl font-bold text-white">15</span>
                   <span className="text-white font-medium text-sm">Years of<br/>Experience</span>
                 </div>
-              </div>
+              </div> */}
+           <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-full shadow-2xl">
+  <div className="w-44 h-44 rounded-full bg-restaurant-red flex flex-col items-center justify-center text-center p-6 transition-transform duration-300 hover:scale-110">
+    <span className="text-2xl font-bold text-white tracking-wide leading-snug">
+      Budget <br /> Friendly
+    </span>
+    <span className="text-white font-medium text-sm opacity-90 mt-2">
+      Delicious meals <br /> at affordable prices!
+    </span>
+  </div>
+
+
+
+</div>
+
             </div>
           </Reveal>
           
@@ -61,9 +75,9 @@ const About = () => {
             <RevealGroup>
               <Reveal>
                 <span className="section-subtitle">About Us</span>
-                <h2 className="section-title text-3xl md:text-4xl mb-6">
+                {/* <h2 className="section-title text-3xl md:text-4xl mb-6">
                   Learn More <span className="text-restaurant-red">About Us</span>
-                </h2>
+                </h2> */}
               </Reveal>
               
               <Reveal delay={300}>

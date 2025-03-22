@@ -51,9 +51,9 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <Reveal>
             <span className="section-subtitle">Testimonials</span>
-            <h2 className="section-title text-3xl md:text-4xl">
+            {/* <h2 className="section-title text-3xl md:text-4xl">
               What Are They <span className="text-restaurant-red">Saying About Us</span>
-            </h2>
+            </h2> */}
           </Reveal>
         </div>
         
