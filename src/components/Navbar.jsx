@@ -79,12 +79,12 @@ const Navbar = () => {
               {item.label}
             </button>
           ))}
-          <button 
+          {/* <button 
             onClick={() => scrollToSection('contact')}
             className="bg-restaurant-red text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-300 font-medium"
           >
             Book a Table
-          </button>
+          </button> */}
         </nav>
         
         {/* Mobile Menu Trigger */}
@@ -124,12 +124,12 @@ const Navbar = () => {
                 {item.label}
               </button>
             ))}
-            <button 
+            {/* <button 
               onClick={() => scrollToSection('contact')}
               className="bg-restaurant-red text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-300 font-medium mt-2"
             >
               Book a Table
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

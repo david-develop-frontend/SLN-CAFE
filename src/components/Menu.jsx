@@ -154,7 +154,7 @@ const Menu = () => {
                   <div className="p-6">
                     <div className="flex justify-between items-center mb-4">
                       <h3 className="text-xl font-semibold">{item.name}</h3>
-                      <span className="text-restaurant-red font-bold">${item.price}</span>
+                      <span className="text-restaurant-red font-bold">₹{item.price}</span>
                     </div>
                     <p className="text-restaurant-text">{item.description}</p>
                   </div>
