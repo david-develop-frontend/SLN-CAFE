@@ -64,8 +64,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-3xl md:text-4xl font-amatic font-bold text-restaurant-dark flex items-center">
-          THE SLN Cafe
+        <a href="#" className="flex items-center text-2xl md:text-2xl font-bold font-amatic text-restaurant-dark hover:text-restaurant-primary transition-all">
+          ದಿ  ಎಸ್ ಎಲ್ ಎನ್ ಕೆಫೆ
           <img src={Logo} alt="SLN Cafe Logo" className="h-8 w-auto ml-2" />
         </a>
 

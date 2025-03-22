@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { Reveal, RevealGroup } from '@/components/ui/reveal';
+import Image1 from "../images/one.png";
+import Image2 from "../images/2.jpeg";
+import Image3 from "../images/3.jpeg";
+import Image4 from "../images/4.jpeg";
+import Image5 from "../images/5.jpeg";
+import Image6 from "../images/owner.jpeg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -7,37 +13,37 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1470&auto=format&fit=crop",
+      src: Image1,
       alt: "Food plating",
       category: "food"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1574&auto=format&fit=crop",
+      src: Image6,
       alt: "Restaurant interior",
       category: "interior"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1470&auto=format&fit=crop",
+      src: Image3,
       alt: "Fine dining",
       category: "food"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1515669097368-22e68427d265?q=80&w=1470&auto=format&fit=crop",
+      src: Image4,
       alt: "Gourmet plate",
       category: "food"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=1470&auto=format&fit=crop",
+      src: Image5,
       alt: "Restaurant event",
       category: "events"
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1374&auto=format&fit=crop",
+      src: Image2,
       alt: "Chef preparing food",
       category: "kitchen"
     }
