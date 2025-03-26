@@ -168,7 +168,7 @@ const Contact = () => {
                 <Reveal animation="fade-in">
                   <div className="bg-white p-2 rounded-lg shadow-md flex items-start w-full h-[400px] md:h-[600px]">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3886.5985832205024!2d77.71375657507798!3d13.061203987262497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAzJzQwLjMiTiA3N8KwNDInNTguOCJF!5e0!3m2!1sen!2sin!4v1742623748959!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.829033135609!2d77.7162689!3d13.061264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1100744c01dd%3A0x1bdb5be215ea0f64!2sThe%20S%20L%20N%20Cafe!5e1!3m2!1sen!2sin!4v1742794485297!5m2!1sen!2sin"
                       className="w-full h-full border-0"
                       allowFullScreen
                       loading="lazy"

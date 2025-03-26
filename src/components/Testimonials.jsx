@@ -8,31 +8,31 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "John Davis",
-      role: "Food Critic",
-      quote: "The dining experience at Yummy is exceptional. The flavors are authentic, and the presentation is impeccable. Each dish tells a story of tradition and innovation.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1287&auto=format&fit=crop"
+      name: "ಕಲ್ಮೇಶ್",
+      role: "ಗ್ರಾಹಕ",
+      quote: "The SLN ಕೆಫೆಯಲ್ಲಿ ಇಡ್ಲಿ-ಸಾಂಬಾರ್ ಸೇವಿಸಿದೆ. ರುಚಿ ಅತ್ಯಂತ ಚೆನ್ನಾಗಿದೆ, ವಿಶೇಷವಾಗಿ ಸಾಂಬಾರ್ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು.ಶುದ್ಧ ಹಾಗೂ ರುಚಿಕರ ಆಹಾರಕ್ಕಾಗಿ ಖಂಡಿತಾ ಮರುಬಳಸಿ ಭೇಟಿ ನೀಡಲು ಇಚ್ಛಿಸುತ್ತೇನೆ. ",
+      image: "https://media.istockphoto.com/id/1681388313/vector/cute-baby-panda-cartoon-on-white-background.jpg?s=612x612&w=0&k=20&c=qFrzn8TqONiSfwevvkYhys1z80NAmDfw3o-HRdwX0d8="
     },
     {
       id: 2,
-      name: "Sarah Johnson",
-      role: "Food Blogger",
-      quote: "I've visited many restaurants, but Yummy stands out with its perfect balance of flavors, exceptional service, and warm ambiance. A must-visit for any food enthusiast.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1287&auto=format&fit=crop"
+      name: "ವರುಣ",
+      role: "ಗ್ರಾಹಕ",
+      quote: "The SLN ಕೆಫೆಯಲ್ಲಿ ಮಾಸಾಲೆ ದೋಸೆ ತಿಂದೆ. ರುಚಿ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು, ಚಟ್ನಿ ಮತ್ತು ಪಲ್ಯ ಸೂಪರ್ ಆಗಿತ್ತು. ಮತ್ತೆ ಬರುವ ಇಚ್ಛೆ ಇದೆ.",
+      image: "https://static.vecteezy.com/system/resources/thumbnails/028/794/707/small_2x/cartoon-cute-school-boy-photo.jpg"
     },
     {
       id: 3,
-      name: "Michael Chen",
-      role: "Regular Customer",
-      quote: "Yummy has become our family's favorite restaurant. The quality of food and service is consistently outstanding. Their chef's special creations never disappoint.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1287&auto=format&fit=crop"
+      name: "ಕಾರ್ತಿಕ್ ರೆಡ್ಡಿ",
+      role: "ಗ್ರಾಹಕ",
+      quote: "The SLN ಕೆಫೆಯಲ್ಲಿ ರೈಸ್-ಸಾಂಬಾರ್ ಮಿಲ್ಸ್ ತಿಂದೆ. ರುಚಿ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು, ಸಾಂಬಾರ್ ಮತ್ತು ಪಲ್ಯ ತುಂಬಾ ಸ್ವಾದಿಷ್ಟವಾಗಿತ್ತು.",
+      image: "https://thumbs.dreamstime.com/b/cute-panda-cartoon-big-eyes-sitting-isolated-white-background-owl-320854001.jpg"
     },
     {
       id: 4,
-      name: "Emily Rodriguez",
-      role: "Local Foodie",
-      quote: "The attention to detail at Yummy is remarkable. From the thoughtfully designed interior to the carefully prepared dishes, everything speaks of passion and dedication.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1170&auto=format&fit=crop"
+      name: "ಕಾವ್ಯ",
+      role: "ಗ್ರಾಹಕ",
+      quote: "The SLN ಕೆಫೆಯಲ್ಲಿ ತುಪ್ಪ ಮಾಸಾಲೆ ಪುಡಿ ದೋಸೆ ತಿಂದೆ. ದೋಸೆ ಕ್ರಿಸ್ಪಿ ಆಗಿ, ತುಪ್ಪದ ಸುವಾಸನೆ ಮತ್ತು ಪುಡಿಯ ರುಚಿ ತುಂಬಾ ಚೆನ್ನಾಗಿತ್ತು.",
+      image: "https://i.pinimg.com/236x/d5/b3/0d/d5b30db5c2e73b9659795d1caf901fb7.jpg"
     }
   ];
   
@@ -51,9 +51,9 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <Reveal>
             <span className="section-subtitle">Testimonials</span>
-            {/* <h2 className="section-title text-3xl md:text-4xl">
-              What Are They <span className="text-restaurant-red">Saying About Us</span>
-            </h2> */}
+            <h2 className="section-title text-3xl md:text-4xl">
+              <span className="text-restaurant-red"></span>
+            </h2>
           </Reveal>
         </div>
         

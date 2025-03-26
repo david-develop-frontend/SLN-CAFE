@@ -20,7 +20,7 @@ const Footer = () => {
           <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
         </svg>
       ),
-      href: "#",
+      href: "https://www.youtube.com/@TheSLNCafe",
     },
     {
       icon: (
@@ -40,7 +40,7 @@ const Footer = () => {
           <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
         </svg>
       ),
-      href: "#",
+      href: "https://www.instagram.com/the_sln_cafe?igsh=bG9pendqMzRpZWxm",
     },
     {
       icon: (
@@ -203,8 +203,11 @@ const Footer = () => {
                 {socialLinks.map((link, index) => (
                   <a
                     key={index}
-                    href={link.href}
-                    className="bg-restaurant-red/20 p-2 rounded-full hover:bg-restaurant-red transition-300"
+                    href="#" 
+              
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-restaurant-red/20 p-2 rounded-full hover:bg-restaurant-red transition duration-300"
                   >
                     {link.icon}
                   </a>

@@ -64,23 +64,23 @@ const Menu = () => {
       },
       {
         id: 6,
-        name: "Puri & Potato Squash",
+        name: "Puri & Aloo Saagu",
         description:
-          "Poached eggs and Canadian bacon on English muffin with hollandaise sauce",
-        price: 16.95,
+          "Puri is a deep-fried, golden-brown Indian bread made from wheat flour, known for its light, puffy texture. Aloo Saagu is a mildly spiced South Indian potato curry with a smooth, slightly chunky consistency, often flavored with mustard seeds, curry leaves, and coconut.",
+        price:40,
         image:
-          "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?q=80&w=1074&auto=format&fit=crop",
+          "https://static.toiimg.com/photo/imgsize-2838831,msid-70929067/70929067.jpg",
       },
     ],
     lunch: [
       {
         id: 7,
-        name: "Grilled Salmon Salad",
+        name: "Rice & Sambar",
         description:
-          "Fresh grilled salmon over mixed greens with citrus vinaigrette",
-        price: 18.95,
+          "Rice and sambar is a classic South Indian dish where steamed rice is served with sambar, a flavorful lentil-based stew made with toor dal, tamarind, vegetables, and aromatic spices. The combination is hearty, nutritious, and often enjoyed with ghee, papad, or pickles for added taste.",
+        price: 40,
         image:
-          "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1074&auto=format&fit=crop",
+          "https://media.istockphoto.com/id/481149282/photo/south-indian-food.jpg?s=612x612&w=0&k=20&c=w43naq0743XDvzCi5FW_ROvzw4_KaCkuam16sfy3hTc=",
       },
       {
         id: 8,
